@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   /* height: 100vh; */
+   flex-flow: column wrap;
+   margin: 100px 0px;
+   gap: 50px;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 300px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card__description__left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.card__description__left > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card__description__left > div:nth-child(3){
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+}
+.card__description__left > div:nth-child(4){
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+}
+.card__description__center{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+.card__description__rigth{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.card__description__center > div:nth-child(1), .card__description__rigth > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card__description__center > div:nth-child(2), .card__description__rigth > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card__description__center > div:nth-child(3), .card__description__rigth > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card__description__categoty{
+    font-weight: 700;
+}
+.card__description__totalPrice{
+    font-weight: 700;
+    font-size: 22px;
+    color: green;
+}
+.card__description__title{
+    font-size: 16px;
+    color: grey;
+}
+.card__description__number{
+    color: green;
+}
